@@ -1,0 +1,8 @@
+3 Projetos p/ Portfólio em Javascript para Iniciantes
+canal bonieky lacerda
+https://www.youtube.com/watch?v=hF_VMWnsY00
+
+- urna eletrônica
+- slideshow
+- validador de formulario
+
