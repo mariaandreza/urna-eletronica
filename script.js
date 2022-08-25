@@ -50,7 +50,7 @@ function atualizaInterface() {
         descricao.innerHTML = `Nome: ${candidato.nome} <br>Partido: ${candidato.partido}`;
         let fotosHtml = '';
         for(let i in candidato.fotos){
-            fotosHtml += `<div class="d-1-image"><img src="image/${candidato.fotos.[i].url}" alt="">${candidato.fotos[i].legenda}</div>'}`;
+            fotosHtml += `<div class="d-1-image"><img src="image/${candidato.fotos[i].url}" alt="">${candidato.fotos[i].legenda}</div>'}`;
         lateral.innerHTML = fotosHtml;
     }
     //console.log("Candidato", candidato);
@@ -85,5 +85,5 @@ function corrige() {
 function confirma() {
     alert("Clicou em CONFIRMA!");
 }
-
+}
 comecarEtapa();
