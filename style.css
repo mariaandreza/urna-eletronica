@@ -20,6 +20,7 @@ body {
 }
 
 .tela {
+    padding: auto;
     width: 500px;
     height: 320px;
     background: linear-gradient(to right, #EBEBEB, #C1C1C1);
@@ -45,7 +46,7 @@ body {
 .teclado-botao {
     width: 70px;
     height: 40px;
-    background-color: #000;
+    background-color: rgb(66, 23, 23);
     color: #fff;
     font-size: 25px;
     display: flex;
